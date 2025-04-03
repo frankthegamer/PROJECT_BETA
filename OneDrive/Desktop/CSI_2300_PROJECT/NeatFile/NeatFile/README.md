@@ -1,18 +1,9 @@
-## Getting Started
+## How to Use
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1. Download all files
+2. Copy and paste path of lib directory to the launch.json file in .vscode folder in the part where is says "vmArgs"
+3. Add all files in lib directory to "Referenced Libraries" in Vscode to update referenced libraries in settings.json
 
-## Folder Structure
+4. Run main java class file, "NeatFileApp.java" located in src\organizer\
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Done!
